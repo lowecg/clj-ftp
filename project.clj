@@ -8,10 +8,10 @@
                         ["clojars" {:url "https://repo.clojars.org"
                                    :sign-releases false}]]
   :dependencies [[org.clojure/clojure "1.8.0"]
-                 [clj-commons/fs "1.6.310"]
-                 [commons-net "3.10.0"]]
+                 [clj-commons/fs "1.6.311"]
+                 [commons-net "3.11.1"]]
   :profiles {:test {:resource-paths ["test-resources"]
-                    :dependencies [[org.mockftpserver/MockFtpServer "3.1.0"]
-                                   [org.slf4j/slf4j-jdk14 "2.0.10"]
+                    :dependencies [[org.mockftpserver/MockFtpServer "3.2.0"]
+                                   [org.slf4j/slf4j-jdk14 "2.0.16"]
                                    [digest "1.4.10"]]}})
 
