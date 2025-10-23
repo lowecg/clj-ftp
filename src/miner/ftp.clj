@@ -153,6 +153,7 @@
        ~@body
        (finally (when (.isConnected ~client)
                   (try
+                    (.logout ~client)
                     (.disconnect ~client)
                     (catch IOException e# nil)))))))
 
